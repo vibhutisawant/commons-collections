@@ -23,4 +23,4 @@ script:
   - mvn
 
 after_success:
-  - mvn clean install jacoco:report coveralls:report -Ptravis-jacoco
+  - mvn clean jacoco:report coveralls:report -Ptravis-jacoco
